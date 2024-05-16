@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+header{width: 100%,;height: 50px;background-color: antiquewhite}
+.menu ul {margin: 0; padding: 0; list-style: none;display: flex}
+.menu{padding-top: 16px}
+.menu ul li a {padding: 10px 15px;text-decoration: none;color: gray}
+.menu ul li a:hover{background-color: black;color: aliceblue}
+.ikon{padding: 15px}
+.banner{width: 100%; min-height: 400px}
+.logo{padding-top:15px}
+main{width: 100%;min-height: 500px }
+.content{width: 270%;padding: 15px;min-height: 200px;border: 1px red;float: left}
+.gachchan{border-bottom: 1px solid red}
+.vien{border:1px solid red;padding: 10px;border-radius: 5px;position: relative; overflow: hidden}
+.text-do{color: darkred}
+.icon{width:80%;height: 40px;position: absolute;left: 10%;top: -10%;display: flex;justify-content: space-around; transition: all 1s}
+.icon a{width: 40px;height: 40px;background-color: cadetblue;border-radius: 50px;display: flex;justify-content: center;align-items: center;text-decoration: none; color: aliceblue}
+.icon a:hover{background-color: white;color:red}
+.vien:hover .icon{
+	top: 50%}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:aqua;
+      text-decoration: none; }
+#feature{width: 100%;min-height: 400px;background-image: url("../img/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center}
+.pt-30{padding-top:15px}
+.vien-trang{width: 100%;border:1px solid white; text-align: center;padding: 20px}
+.vien-trang a{text-decoration: none;color: darkred;}
+.vien-trang a:hover{color: aliceblue;background-color: darkred;cursor: pointer}
+article{width:100%;padding: 5px;min-height:200px;}
+#contact{width: 100%;min-height: 400px;background-image: url("../img/Banner2.png");background-repeat:no-repeat;background-size: cover;background-position: center}
+.shadow{border: 1px solid gray;width: 100%;min-height: 300px;box-shadow: 6px 6px 6px gray;padding: 30px}
+.form-control{padding:8px;margin-bottom: 10px;width: 100%}
+
